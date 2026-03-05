@@ -1,108 +1,110 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Pho Chat Docs",
-  "colors": {
-    "primary": "#7c3aed",
-    "light": "#a78bfa",
-    "dark": "#5b21b6"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Huong dan",
-        "groups": [
-          {
-            "group": "Bat dau",
-            "pages": ["index", "quickstart"]
-          },
-          {
-            "group": "Tinh nang nghien cuu",
-            "pages": [
-              "features/research-mode",
-              "features/deep-research",
-              "features/pdf-upload",
-              "features/plagiarism-check",
-              "features/research-slides"
-            ]
-          },
-          {
-            "group": "AI khoa hoc",
-            "pages": [
-              "features/scientific-skills",
-              "features/research-suggestions"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Scientific Agents",
-        "groups": [
-          {
-            "group": "Agents",
-            "pages": ["agents/overview"]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "Research APIs",
-            "pages": [
-              "api-reference/pdf-extract",
-              "api-reference/plagiarism-check",
-              "api-reference/research-slides"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "groups": [
-          {
-            "group": "Updates",
-            "pages": ["changelog/march-2026"]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Pho Chat",
-          "href": "https://pho.chat",
-          "icon": "house"
-        },
-        {
-          "anchor": "GitHub",
-          "href": "https://github.com/thaohienhomes/lobe-chat",
-          "icon": "github"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Pho Chat",
-        "href": "https://pho.chat"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Bat dau mien phi",
-      "href": "https://pho.chat"
-    }
-  },
-  "footer": {
-    "socials": {
-      "github": "https://github.com/thaohienhomes/lobe-chat"
-    }
-  }
+    "$schema":  "https://mintlify.com/docs.json",
+    "theme":  "mint",
+    "name":  "Pho Chat Docs",
+    "colors":  {
+                   "primary":  "#7c3aed",
+                   "light":  "#a78bfa",
+                   "dark":  "#5b21b6"
+               },
+    "favicon":  "/favicon.svg",
+    "navigation":  {
+                       "tabs":  [
+                                    {
+                                        "tab":  "Huong dan",
+                                        "groups":  [
+                                                       {
+                                                           "group":  "Bat dau",
+                                                           "pages":  [
+                                                                         "index",
+                                                                         "quickstart"
+                                                                     ]
+                                                       },
+                                                       {
+                                                           "group":  "Tinh nang nghien cuu",
+                                                           "pages":  [
+                                                                         "features/research-mode",
+                                                                         "features/deep-research",
+                                                                         "features/pdf-upload",
+                                                                         "features/plagiarism-check",
+                                                                         "features/research-slides"
+                                                                     ]
+                                                       },
+                                                       {
+                                                           "group":  "AI khoa hoc",
+                                                           "pages":  [
+                                                                         "features/scientific-skills",
+                                                                         "features/research-suggestions"
+                                                                     ]
+                                                       }
+                                                   ]
+                                    },
+                                    {
+                                        "tab":  "Scientific Agents",
+                                        "groups":  [
+                                                       {
+                                                           "group":  "Agents",
+                                                           "pages":  [
+                                                                         "agents/overview"
+                                                                     ]
+                                                       }
+                                                   ]
+                                    },
+                                    {
+                                        "tab":  "API Reference",
+                                        "groups":  [
+                                                       {
+                                                           "group":  "Research APIs",
+                                                           "pages":  [
+                                                                         "api-reference/pdf-extract",
+                                                                         "api-reference/plagiarism-check",
+                                                                         "api-reference/research-slides"
+                                                                     ]
+                                                       }
+                                                   ]
+                                    },
+                                    {
+                                        "tab":  "Changelog",
+                                        "groups":  [
+                                                       {
+                                                           "group":  "Updates",
+                                                           "pages":  [
+                                                                         "changelog/march-2026"
+                                                                     ]
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                       "global":  {
+                                      "anchors":  [
+                                                      {
+                                                          "icon":  "house",
+                                                          "href":  "https://pho.chat",
+                                                          "anchor":  "Pho Chat"
+                                                      }
+                                                  ]
+                                  }
+                   },
+    "logo":  {
+                 "light":  "/logo/light.svg",
+                 "dark":  "/logo/dark.svg"
+             },
+    "navbar":  {
+                   "links":  [
+                                 {
+                                     "label":  "Pho Chat",
+                                     "href":  "https://pho.chat"
+                                 }
+                             ],
+                   "primary":  {
+                                   "type":  "button",
+                                   "label":  "Bat dau mien phi",
+                                   "href":  "https://pho.chat"
+                               }
+               },
+    "footer":  {
+                   "socials":  {
+
+                               }
+               }
 }
