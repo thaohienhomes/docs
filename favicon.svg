@@ -1,19 +1,28 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.06145 23.1079C5.26816 22.3769 -3.39077 20.6274 1.4173 5.06384C9.6344 6.09939 16.9728 14.0644 9.06145 23.1079Z" fill="url(#paint0_linear_17557_2021)"/>
-<path d="M8.91928 23.0939C5.27642 21.2223 0.78371 4.20891 17.0071 0C20.7569 7.19341 19.6212 16.5452 8.91928 23.0939Z" fill="url(#paint1_linear_17557_2021)"/>
-<path d="M8.91388 23.0788C8.73534 19.8817 10.1585 9.08525 23.5699 13.1107C23.1812 20.1229 18.984 26.4182 8.91388 23.0788Z" fill="url(#paint2_linear_17557_2021)"/>
-<defs>
-<linearGradient id="paint0_linear_17557_2021" x1="3.77557" y1="5.91571" x2="5.23185" y2="21.5589" gradientUnits="userSpaceOnUse">
-<stop stop-color="#18E299"/>
-<stop offset="1" stop-color="#15803D"/>
-</linearGradient>
-<linearGradient id="paint1_linear_17557_2021" x1="12.1711" y1="-0.718425" x2="10.1897" y2="22.9832" gradientUnits="userSpaceOnUse">
-<stop stop-color="#16A34A"/>
-<stop offset="1" stop-color="#4ADE80"/>
-</linearGradient>
-<linearGradient id="paint2_linear_17557_2021" x1="23.1327" y1="15.353" x2="9.33841" y2="18.5196" gradientUnits="userSpaceOnUse">
-<stop stop-color="#4ADE80"/>
-<stop offset="1" stop-color="#0D9373"/>
-</linearGradient>
-</defs>
+<svg width="800" height="512" viewBox="0 0 800 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Combined Logo + Text -->
+  
+  <!-- Logo Part (scaled down) -->
+  <g transform="translate(100, 156) scale(0.6)">
+    <!-- Bowl -->
+    <path d="M140 280 Q140 360 256 360 Q372 360 372 280 L372 260 Q372 240 256 240 Q140 240 140 260 Z" 
+          fill="#FF6B6B"/>
+    
+    <!-- Bowl Rim -->
+    <ellipse cx="256" cy="260" rx="116" ry="20" fill="#FF7675"/>
+    
+    <!-- Steam Lines -->
+    <path d="M200 220 Q205 200 210 180 Q215 160 220 140" 
+          stroke="#FF6B6B" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <path d="M256 210 Q261 190 266 170 Q271 150 276 130" 
+          stroke="#FF6B6B" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <path d="M312 220 Q307 200 302 180 Q297 160 292 140" 
+          stroke="#FF6B6B" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  
+  <!-- Divider -->
+  <line x1="380" y1="206" x2="420" y2="306" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Text Part -->
+  <text x="480" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" 
+        fill="#FF6B6B">pho.chat</text>
 </svg>
