@@ -1,0 +1,40 @@
+---
+title: "Phân tích thống kê với R"
+sidebarTitle: "R Language"
+description: "Hướng dẫn viết và chạy code R cho phân tích thống kê trên Pho.Chat"
+icon: "chart-line"
+---
+
+<Note>Tính năng này có từ gói **Pro** trở lên.</Note>
+
+## Tổng quan
+
+Pho.Chat hỗ trợ viết và chạy code R trực tiếp trong cuộc trò chuyện. Bạn có thể yêu cầu AI viết code phân tích thống kê, tạo biểu đồ, và giải thích kết quả.
+
+## Cách sử dụng
+
+<Steps>
+  <Step title="Yêu cầu AI viết code R">
+    Mô tả phân tích bạn cần. Ví dụ: "Viết code R để chạy meta-analysis từ dữ liệu sau: [dữ liệu]"
+  </Step>
+  <Step title="Xem và chỉnh sửa code">
+    AI sẽ tạo code R trong Artifact. Bạn có thể xem, chỉnh sửa, và chạy.
+  </Step>
+  <Step title="Xem kết quả">
+    Kết quả phân tích và biểu đồ hiển thị trực tiếp trong chat.
+  </Step>
+</Steps>
+
+## Ví dụ thường dùng
+
+<AccordionGroup>
+  <Accordion title="Meta-analysis">
+    "Chạy random-effects meta-analysis với package metafor, dữ liệu gồm 5 studies với effect size và SE"
+  </Accordion>
+  <Accordion title="Forest plot">
+    "Tạo forest plot từ kết quả meta-analysis ở trên"
+  </Accordion>
+  <Accordion title="Sample size calculation">
+    "Tính sample size cho two-sample t-test, power 80%, alpha 0.05, effect size 0.5"
+  </Accordion>
+</AccordionGroup>

@@ -1,111 +1,216 @@
 {
-    "$schema":  "https://mintlify.com/docs.json",
-    "theme":  "mint",
-    "name":  "Pho Chat Docs",
-    "colors":  {
-                   "primary":  "#7c3aed",
-                   "light":  "#a78bfa",
-                   "dark":  "#5b21b6"
-               },
-    "favicon":  "/favicon.svg",
-    "navigation":  {
-                       "tabs":  [
-                                    {
-                                        "tab":  "Huong dan",
-                                        "groups":  [
-                                                       {
-                                                           "group":  "Bat dau",
-                                                           "pages":  [
-                                                                         "index",
-                                                                         "quickstart"
-                                                                     ]
-                                                       },
-                                                       {
-                                                           "group":  "Tinh nang nghien cuu",
-                                                           "pages":  [
-                                                                         "features/research-mode",
-                                                                         "features/deep-research",
-                                                                         "features/pdf-upload",
-                                                                         "features/plagiarism-check",
-                                                                         "features/research-slides"
-                                                                     ]
-                                                       },
-                                                       {
-                                                           "group":  "AI khoa hoc",
-                                                           "pages":  [
-                                                                         "features/scientific-skills",
-                                                                         "features/research-suggestions"
-                                                                     ]
-                                                       }
-                                                   ]
-                                    },
-                                    {
-                                        "tab":  "Scientific Agents",
-                                        "groups":  [
-                                                       {
-                                                           "group":  "Agents",
-                                                           "pages":  [
-                                                                         "agents/overview"
-                                                                     ]
-                                                       }
-                                                   ]
-                                    },
-                                    {
-                                        "tab":  "API Reference",
-                                        "groups":  [
-                                                       {
-                                                           "group":  "Research APIs",
-                                                           "pages":  [
-                                                                         "api-reference/pdf-extract",
-                                                                         "api-reference/plagiarism-check",
-                                                                         "api-reference/research-slides"
-                                                                     ]
-                                                       }
-                                                   ]
-                                    },
-                                    {
-                                        "tab":  "Changelog",
-                                        "groups":  [
-                                                       {
-                                                           "group":  "Updates",
-                                                           "pages":  [
-                                                                         "changelog/march-2026"
-                                                                     ]
-                                                       }
-                                                   ]
-                                    }
-                                ],
-                       "global":  {
-                                      "anchors":  [
-                                                      {
-                                                          "icon":  "house",
-                                                          "href":  "https://pho.chat",
-                                                          "anchor":  "Pho Chat"
-                                                      }
-                                                  ]
-                                  }
-                   },
-    "logo":  {
-                 "light":  "/logo/light.svg",
-                 "dark":  "/logo/dark.svg",
-                 "height":  40
-             },
-    "navbar":  {
-                   "links":  [
-                                 {
-                                     "label":  "Pho Chat",
-                                     "href":  "https://pho.chat"
-                                 }
-                             ],
-                   "primary":  {
-                                   "type":  "button",
-                                   "label":  "Bat dau mien phi",
-                                   "href":  "https://pho.chat"
-                               }
-               },
-    "footer":  {
-                   "socials":  {
-
-                               }
-               }
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Pho Chat Docs",
+    "colors": {
+        "primary": "#059669",
+        "light": "#34D399",
+        "dark": "#047857"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Huong dan",
+                "groups": [
+                    {
+                        "group": "Bat dau",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "chon-vertical",
+                            "tong-quan-tinh-nang"
+                        ]
+                    },
+                    {
+                        "group": "Tinh nang nghien cuu",
+                        "pages": [
+                            "features/research-mode",
+                            "features/deep-research",
+                            "features/pdf-upload",
+                            "features/plagiarism-check",
+                            "features/research-slides"
+                        ]
+                    },
+                    {
+                        "group": "AI khoa hoc",
+                        "pages": [
+                            "features/scientific-skills",
+                            "features/research-suggestions"
+                        ]
+                    },
+                    {
+                        "group": "Nghien cuu khoa hoc",
+                        "pages": [
+                            "nghien-cuu/tong-quan",
+                            "nghien-cuu/pubmed",
+                            "nghien-cuu/semantic-scholar",
+                            "nghien-cuu/prisma-2020",
+                            "nghien-cuu/scientific-skills",
+                            "nghien-cuu/deep-research",
+                            "nghien-cuu/r-language"
+                        ]
+                    },
+                    {
+                        "group": "Giao duc",
+                        "pages": [
+                            "giao-duc/tong-quan",
+                            "giao-duc/voice-teaching"
+                        ]
+                    },
+                    {
+                        "group": "Y te",
+                        "pages": [
+                            "y-te/tong-quan",
+                            "y-te/drug-interactions",
+                            "y-te/clinical-trials",
+                            "y-te/luat-ai-134"
+                        ]
+                    },
+                    {
+                        "group": "Tinh nang chung",
+                        "pages": [
+                            "tinh-nang/ai-models",
+                            "tinh-nang/chat",
+                            "tinh-nang/artifacts",
+                            "tinh-nang/workspace",
+                            "tinh-nang/gemini-embedding",
+                            "tinh-nang/bao-mat"
+                        ]
+                    },
+                    {
+                        "group": "Goi & Thanh toan",
+                        "pages": [
+                            "gia-ca/so-sanh-goi",
+                            "gia-ca/thanh-toan"
+                        ]
+                    },
+                    {
+                        "group": "Tro giup",
+                        "pages": [
+                            "faq"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Scientific Agents",
+                "groups": [
+                    {
+                        "group": "Agents",
+                        "pages": [
+                            "agents/overview"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "API Reference",
+                "groups": [
+                    {
+                        "group": "Research APIs",
+                        "pages": [
+                            "api-reference/pdf-extract",
+                            "api-reference/plagiarism-check",
+                            "api-reference/research-slides"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "English",
+                "groups": [
+                    {
+                        "group": "Getting Started",
+                        "pages": [
+                            "en/introduction",
+                            "en/quickstart",
+                            "en/features-overview"
+                        ]
+                    },
+                    {
+                        "group": "Research",
+                        "pages": [
+                            "en/research-overview",
+                            "en/pubmed",
+                            "en/prisma-2020",
+                            "en/scientific-skills",
+                            "en/deep-research"
+                        ]
+                    },
+                    {
+                        "group": "Medical",
+                        "pages": [
+                            "en/medical-overview",
+                            "en/drug-interactions"
+                        ]
+                    },
+                    {
+                        "group": "Features",
+                        "pages": [
+                            "en/ai-models",
+                            "en/artifacts",
+                            "en/security"
+                        ]
+                    },
+                    {
+                        "group": "Pricing",
+                        "pages": [
+                            "en/pricing"
+                        ]
+                    },
+                    {
+                        "group": "Help",
+                        "pages": [
+                            "en/faq"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Changelog",
+                "groups": [
+                    {
+                        "group": "Updates",
+                        "pages": [
+                            "changelog/march-2026"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "icon": "house",
+                    "href": "https://pho.chat",
+                    "anchor": "Pho Chat"
+                }
+            ]
+        }
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg",
+        "height": 40
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Pho Chat",
+                "href": "https://pho.chat"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Bat dau mien phi",
+            "href": "https://pho.chat"
+        }
+    },
+    "footer": {
+        "socials": {
+            "github": "https://github.com/thaohienhomes/lobe-chat",
+            "x": "https://x.com/phochat"
+        }
+    }
 }

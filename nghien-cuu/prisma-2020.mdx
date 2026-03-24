@@ -1,0 +1,78 @@
+---
+title: "Cách chạy phân tích PRISMA 2020"
+sidebarTitle: "PRISMA 2020"
+description: "Hướng dẫn thực hiện tổng quan hệ thống theo chuẩn PRISMA 2020 trên Pho.Chat"
+icon: "chart-gantt"
+---
+
+<Note>Tính năng này có từ gói **Pro** trở lên.</Note>
+
+## PRISMA 2020 là gì?
+
+PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) là bộ hướng dẫn quốc tế cho tổng quan hệ thống. Phiên bản 2020 bao gồm 27 mục kiểm tra giúp đảm bảo tính minh bạch và chất lượng của nghiên cứu.
+
+## Cách thực hiện trên Pho.Chat
+
+<Steps>
+  <Step title="Kích hoạt PRISMA skill">
+    Nhấn **Skills** (⚡) → tìm **PRISMA 2020** → kích hoạt.
+  </Step>
+  <Step title="Đặt câu hỏi nghiên cứu">
+    Nhập câu hỏi nghiên cứu rõ ràng. Ví dụ:
+
+    "Thực hiện PRISMA 2020 systematic review: hiệu quả của telemedicine trong quản lý bệnh tiểu đường type 2"
+  </Step>
+  <Step title="Xem protocol">
+    AI sẽ tạo protocol nghiên cứu bao gồm:
+    - Câu hỏi PICO (Population, Intervention, Comparison, Outcome)
+    - Chiến lược tìm kiếm
+    - Tiêu chí inclusion/exclusion
+    - Databases sẽ tìm kiếm
+  </Step>
+  <Step title="Review kết quả screening">
+    AI tìm kiếm trên PubMed và Semantic Scholar, sau đó:
+    - Screening tiêu đề và abstract
+    - Đánh giá full-text
+    - Trích xuất dữ liệu
+  </Step>
+  <Step title="Tạo PRISMA Flow Diagram">
+    AI tự động tạo biểu đồ PRISMA flow diagram cho thấy số lượng bài báo ở mỗi giai đoạn screening.
+  </Step>
+  <Step title="Xuất báo cáo">
+    Nhấn **Export** để tải báo cáo đầy đủ với PRISMA 2020 checklist.
+  </Step>
+</Steps>
+
+<Warning>PRISMA 2020 trên Pho.Chat là công cụ hỗ trợ. Kết quả cần được nhà nghiên cứu xác minh trước khi sử dụng trong publication.</Warning>
+
+## PRISMA 2020 Checklist
+
+Pho.Chat hỗ trợ đầy đủ 27 mục của PRISMA 2020:
+
+<AccordionGroup>
+  <Accordion title="Title & Abstract (Mục 1-2)">
+    - Mục 1: Tiêu đề xác định là systematic review
+    - Mục 2: Abstract cấu trúc theo PRISMA
+  </Accordion>
+  <Accordion title="Introduction (Mục 3-4)">
+    - Mục 3: Rationale — lý do thực hiện review
+    - Mục 4: Objectives — mục tiêu rõ ràng theo PICO
+  </Accordion>
+  <Accordion title="Methods (Mục 5-16)">
+    Protocol, eligibility criteria, information sources, search strategy, selection process, data collection, study risk of bias, effect measures, synthesis methods, reporting bias, certainty assessment.
+  </Accordion>
+  <Accordion title="Results & Discussion (Mục 17-27)">
+    Study selection, study characteristics, risk of bias results, individual study results, synthesis results, reporting biases, certainty of evidence, discussion, registration info.
+  </Accordion>
+</AccordionGroup>
+
+## Tính năng liên quan
+
+<CardGroup cols={2}>
+  <Card title="PubMed Search" icon="magnifying-glass" href="/nghien-cuu/pubmed">
+    Tìm bài báo cho systematic review
+  </Card>
+  <Card title="Scientific Skills" icon="flask" href="/nghien-cuu/scientific-skills">
+    GRADE, RoB 2, và các công cụ đánh giá
+  </Card>
+</CardGroup>
